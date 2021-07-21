@@ -10,7 +10,7 @@ class Genre(models.Model):
         return self.type
 
     class Meta:
-        ordering = ['name']
+        ordering = ['type']
 
 
 class Author(models.Model):
